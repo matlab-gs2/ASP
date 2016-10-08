@@ -1,8 +1,8 @@
-clear all; close all;
+clear all; close all; clc;
 
-num = 0;
+sum = 0;
 for i = 1:100
-    num = num + i;
+    sum = sum + i;
 end
-disp(num)
+disp(sum);
 return
